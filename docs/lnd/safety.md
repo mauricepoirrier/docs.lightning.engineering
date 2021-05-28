@@ -61,7 +61,7 @@ Important to know:
   they aren't running at the same time. This will lead to strange/unpredictable
   behavior or even loss of funds. To migrate an `lnd` node to a new device,
   please see the [node migration section](#migrating-a-node-to-a-new-device).
-* For more technical information [see the aezeed README](../aezeed/README.md).
+* For more technical information [see the aezeed README](https://github.com/lightningnetwork/lnd/blob/master/aezeed/README.md).
 
 ### Wallet password
 
@@ -99,7 +99,7 @@ set of _restrictions_ (e.g. token expiration timestamp, IP address restriction).
 was used to create (and later verify) them. That means, individual tokens cannot
 currently be invalidated, only all of them at once.   
 See the [high-level macaroons documentation](macaroons.md) or the [technical
-README](../macaroons/README.md) for more information.
+README](macaroons.md) for more information.
 
 Important to know:
 * Deleting the `*.macaroon` files in the `<lnd-dir>/data/chain/bitcoin/mainnet/`
